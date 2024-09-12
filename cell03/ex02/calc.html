@@ -32,6 +32,7 @@
             <option value="-">-</option>
             <option value="*">*</option>
             <option value="/">/</option>
+            <option value="%">%</option>
         </select>
         <input type ="text" id = "num2" placeholder="Number2">
         </div>
@@ -62,11 +63,14 @@
                     } else {
                         alert("it's over 9000!!");
                     }
-                }
-
-                output.value = result;
-            } else {
-                alert("Error :(");
+                } else if (operator == "%") {
+                    result = num1 % num2;
+                    }
+                    
+                    else {
+                    alert("Error :(");
+                    }output.value = result;
+                    console.log(result);
             }
         }
     </script>
