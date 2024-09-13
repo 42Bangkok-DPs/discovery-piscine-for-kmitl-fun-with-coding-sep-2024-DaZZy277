@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <!-- icon's cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!-- bootstrap's cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style type="text/css">
+        /* Navbar styling */
+        .navbar-nav {
+            flex-direction: row;
+        }
+
+        .nav-item {
+            margin: 0 10px;
+
+        }
+
+        .nav-item a {
+            font-weight: bold;
+            color: #0d6efd;
+        }
+
+        .nav-item b {
+            color: black;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        /* Icon styling */
+        .fa-github, .fa-facebook {
+            font-size: 20px;
+        }
+
+        .fa-github {
+            color: black;
+        }
+
+        .fa-facebook {
+            color: rgb(24, 119, 242);
+        }
+
+        /* Add some space at the top and bottom */
+        body {
+            padding-top: 60px;
+            padding-bottom: 60px;
+            background-color: #f8f9fa;
+        }
+
+        /* Contact box styling */
+        .contact-container {
+            background-color: #fff;
+            padding: 40px;
+            margin-top: 50px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2.5rem; /* Adjusted font size */
+            font-weight: bold;
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .contact-info {
+            font-size: 1rem; /* Adjusted font size */
+            margin-bottom: 15px;
+        }
+
+        .contact-info span {
+            font-weight: bold;
+        }
+
+        /* Media queries for responsiveness */
+        @media (max-width: 768px) {
+            .navbar-nav {
+                
+
+            .nav-item {
+                margin: 10px 0;
+            }
+
+            .fa-github, .fa-facebook {
+                font-size: 25px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .contact-info {
+                font-size: 0.875rem; /* Smaller font size for mobile */
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar with icons in the same line -->
+    <nav class="navbar sticky-top bg-body-tertiary">
+        <div class="container d-flex justify-content-between align-items-center">
+            <!-- Navigation links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="file.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Experience & Skill</a>
+                </li>
+                <li class="nav-item">
+                    <b class="nav-link" >Contact Us</b>
+                </li>
+            </ul>            
+            <div class="d-flex">
+                <a href="https://github.com/Murphyys" target="_blank" class="me-3">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.facebook.com/SZtPIe/" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container info-container">
+
+    </div>
+
+
+    <!-- Contact information -->
+    <div class="container contact-container">
+        <h1>Contact</h1>
+        <div class="contact-info">
+          <p><span>Email:</span> icebodin1993@gmail.com</p>
+        </div>
+        <div class="contact-info">
+          <p><span>Phone Number:</span> +66 970100217</p>
+        </div>
+        <div class="contact-info">
+          <p><span>Address:</span> 39/21 Soi Nakkarrat, Bamrung Mueang Road, Khlong Mahanak Sub-district, Pom Prap Sattru Phai District, Bangkok 10100 </p>
+        </div>
+    </div>
+
+    
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
