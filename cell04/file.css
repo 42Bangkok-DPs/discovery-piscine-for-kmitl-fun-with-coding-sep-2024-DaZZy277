@@ -34,7 +34,8 @@ a {
 }
 
 #parallax {
-  background-image: url("https://wallpapercave.com/wp/wp9215875.jpg");
+  /* background-image: url("https://wallpapercave.com/wp/wp9215875.jpg"); */
+  background-color: #1b1b1b;
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -60,3 +61,4 @@ a {
   background-color: #28a745;
   transition: all 1s ease;
 }
+
