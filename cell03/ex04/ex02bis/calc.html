@@ -43,12 +43,12 @@
     <script>
         $(document).ready(function() {
             $('#submit').click(function() {
-                let num1 = parseFloat($('#num1').val());
-                let num2 = parseFloat($('#num2').val());
+                let num1  = $('#num1').val();
+                let num2 = $('#num2').val();
                 let operator = $('#operator').val();
                 let output = $('#output');
 
-                if (num1>=0 && num2>=0) {
+                if (num1>=0 && num2>=0 && !isNaN(num1) && !isNaN(num2)) {
                     let result;
                     switch(operator) {
                         case '+':
